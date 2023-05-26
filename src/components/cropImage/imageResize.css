@@ -1,0 +1,16 @@
+.image-container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.page-header{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+.display-image img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}

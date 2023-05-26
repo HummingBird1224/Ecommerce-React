@@ -1,0 +1,43 @@
+{
+  "name": "MegaFPO",
+  "short_name": "MegaFPO",
+  "theme_color": "#29ad29",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "maskable.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo256",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo384",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+
+}

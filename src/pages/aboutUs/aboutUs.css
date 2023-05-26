@@ -1,0 +1,131 @@
+.banner-container{
+  max-height:400px;
+  background: url('storyBanner.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin-top:-16px;
+}
+.story-content{
+  border:1px solid #ddd;
+  box-shadow: 0 0 3px 4px #ddd;
+  margin: 35px 75px;
+  padding: 50px;
+  position: relative;
+  /* background:white; */
+}
+.story-content::before{
+  content:url('storyLeft.png');
+  left: -17px;
+  position: absolute;
+  top: -17px;
+}
+.story-content::after{
+  content:url('storyRight.png');
+  right: -17px;
+  position: absolute;
+  bottom: -25px;
+}
+.story-content-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align:center;
+  font-family: Montserrat,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+}
+.story-content-main{
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:400;
+  letter-spacing:.5px;
+  line-height:1.6em;
+}
+.team-container{
+  background: #f1f1f1;
+  margin-top:70px;
+  padding:35px 0;
+}
+.team-card{
+  background: url(teamBack.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 15px 10px;
+  box-sizing: border-box;
+}
+.team-img{
+  border-radius: 50%;
+  display: block;
+  height: 160px;
+  margin: auto;
+  object-fit: cover;
+  padding-right: 3px;
+  padding-top: 2px;
+  width: 160px;
+  max-width: 100%;
+}
+.team-name{
+  text-align:center;
+}
+.team-name a{
+  color: #45a7bd;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  cursor:pointer;
+  text-decoration: none;
+}
+.team-name p{
+  color: grey;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.investors-container{
+    background: linear-gradient(0deg,#5c6b25,#8cc641);
+    padding: 55px;
+}
+.investor-card{
+  align-items: center;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+  padding: 15px;
+  margin-left:8px;
+  margin-right:8px;
+  margin-top:15px;
+  max-width:510px;
+}
+.investor-logo{
+  max-width: 100%;
+  height: auto;
+}
+.contact-container{
+  background: #d7e9bf;
+  border-radius: 6px;
+  margin: 60px 0;
+  border: 1px solid #ddd;
+  padding: 40px;
+}
+.contact-container h3{
+  text-align: center;
+  font-size: 24px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+}
+.contact-container button{
+  background:'#374016';
+  width:90%;
+  margin:20px 0;
+  padding:11px 0;
+  font-size: 18px;
+}
+.news-container{
+  background: url('newsBack.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 0;
+}

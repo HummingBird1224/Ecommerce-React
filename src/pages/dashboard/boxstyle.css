@@ -1,0 +1,21 @@
+body{
+    background: rgba(198, 255, 138, 0.06);
+
+}
+
+.farmer{
+    background-image: url("farmer.jpg");
+    background-size: cover;
+}
+.buyer{
+    background-image: url("buyer.jpg");
+    background-size: cover;
+}
+.crop{
+    background-image: url("crops.jpg");
+    background-size: cover;
+}
+.officer{
+    background-image: url("officer.jpg");
+    background-size: cover;
+}
